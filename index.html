@@ -1,19 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Peter Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Add Two Numbers</h1>
-        <input type="number" id="num1" placeholder="Enter first number" required>
-        <input type="number" id="num2" placeholder="Enter second number" required>
-        <button id="addButton">Add</button>
-        <p id="result"></p>
-    </div>
-    <script src="peterukpabi.js"></script>
+    <header>
+        <h1>Peter Chigozie Walter</h1>
+        <p>Web Design and Development</p>
+        <img src="./portifoilo/images/peter.jpg" alt="picture of me">
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Peter chigozie Walter, I am a Web design major and a freshman in Brigham Young University-Idaho. I
+            am
+            born in Nigeria, West Africa and have lived in Brooklyn New York. I am a member of the church of Jesus
+            Christ of
+            Latter-day Saint.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>Website Deployment</h3>
+            <p>In my class this semester, we are working on cloud technologies and how to delpy website. I am part of
+                this class and this great project and we use firebase web service to deploy our website. In building
+                this website, the tools i used are HTML framework, CSS and Javascript. i also used Nodejs which is
+                javascript framework.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Deployed website using firebase </li>
+            <li>built a website using HTML, CSS, JAVASCRIPT and Nodejs</li>
+            <li>skills</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Peter 2024. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
